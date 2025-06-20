@@ -4,11 +4,10 @@
   margin: 0 auto;
   background-color: #2a2c2f;
   color: #ffffff;
-  @font-face {
-    font-family: "Inter", sans-serif;
-    src: url(../vendor/Inter-Black.woff2) format("woff2"),
-      url(../vendor/Inter-Regular.woff) format("woff");
-  }
   box-sizing: border-box;
   overflow-x: auto;
 }
+
+@font-face font-family: "Inter", sans-serif;
+src: url ("../vendor/Inter-Regular.woff2") format("woff2"),
+  url("../vendor/Inter-Black.woff2") format("woff");
