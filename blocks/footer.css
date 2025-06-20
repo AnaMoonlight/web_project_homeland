@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer__author {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  align-items: center;
+}
