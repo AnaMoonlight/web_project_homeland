@@ -6,8 +6,8 @@
   color: #ffffff;
   @font-face {
     font-family: "Inter", sans-serif;
-    src: url(../fonts/Inter-Black.woff2) format("woff2"),
-      url(../fonts/Inter-Regular.woff) format("woff");
+    src: url(../vendor/Inter-Black.woff2) format("woff2"),
+      url(../vendor/Inter-Regular.woff) format("woff");
   }
   box-sizing: border-box;
   overflow-x: auto;
