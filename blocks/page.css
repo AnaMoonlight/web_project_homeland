@@ -8,6 +8,6 @@
   overflow-x: auto;
 }
 
-@font-face font-family: "Inter", sans-serif;
-src: url ("../vendor/Inter-Regular.woff2") format("woff2"),
-  url("../vendor/Inter-Black.woff2") format("woff");
+@font-face {
+  font-family: "Inter", sans-serif;
+}
