@@ -19,3 +19,7 @@ HTML y CSS para la estructura y estilos de la página.
 Git: sistema de control de versiones.
 GitHub: Plataforma para alojar el repositorio del proyecto.
 Figma: Herramienta de diseño en donde se proporcionó el brief del proyecto.
+
+# Enlace a GitHub Pages:
+
+[(https://github.com/AnaMoonlight/web_project_homeland.git)]
