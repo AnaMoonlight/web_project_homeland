@@ -2,7 +2,7 @@
   display: block;
   width: 100%;
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .content__intro {
