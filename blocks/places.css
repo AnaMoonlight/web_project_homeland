@@ -28,8 +28,10 @@
   max-height: 460px;
 }
 
-.places__image: hover {
-  background-color: #000000 50%;
+.places__image:hover {
+  background-color: #000000;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .places__image-item {
@@ -68,7 +70,7 @@
 
 .places__artist-title {
   font-size: 12px;
-  letter-spacing: 163%;
+  letter-spacing: 1.2px;
   color: rgba(170, 170, 170, 1);
 }
 
@@ -116,7 +118,7 @@
   .places__content {
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header artist"
       "image paragraph1"
@@ -192,27 +194,28 @@
     max-width: 320px;
     width: 100%;
     order: 3;
-
   }
 
-  .places__artist-title, .places__artist-editor,
+  .places__artist-title,
+  .places__artist-editor,
   .places__artist-project-manager {
     order: 2;
-}
+  }
 
-.places__paragraph1 {
-  order: 4;
-}
+  .places__paragraph1 {
+    order: 4;
+  }
 
-.places__paragraph2 {
-  order: 5;
-}
+  .places__paragraph2 {
+    order: 5;
+  }
 
-.places__paragraph3 {
-  order: 6;
-}
+  .places__paragraph3 {
+    order: 6;
+  }
 
-.places__button {
-  order: 7;
-  font-size: 14px;
+  .places__button {
+    order: 7;
+    font-size: 14px;
+  }
 }
