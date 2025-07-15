@@ -241,6 +241,6 @@
     grid-column: 1;
     font-size: 14px;
     max-width: 320px;
-    grid-area: "button";
+    max-height: 3rem;
   }
 }
